@@ -30,7 +30,6 @@ async def _(rj):
         await rj.reply(f"ᴇʀʀᴏʀ ʀᴇᴘᴏʀᴛ @{SUPPORT_CHAT}")
 
 
-
 __mod_name__ = "𝚃ʀᴜᴛʜ 🔹"
 
 __help__ = """

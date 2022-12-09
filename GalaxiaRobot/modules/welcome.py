@@ -39,7 +39,10 @@ from GalaxiaRobot import (
     dispatcher,
     sw,
 )
-from GalaxiaRobot.modules.helper_funcs.chat_status import is_user_ban_protected, user_admin
+from GalaxiaRobot.modules.helper_funcs.chat_status import (
+    is_user_ban_protected,
+    user_admin,
+)
 from GalaxiaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
 from GalaxiaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
 from GalaxiaRobot.modules.helper_funcs.msg_types import get_welcome_type

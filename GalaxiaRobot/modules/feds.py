@@ -2425,7 +2425,6 @@ __help__ = """
 """
 
 
-
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed, run_async=True)
 DEL_FED_HANDLER = CommandHandler("delfed", del_fed, run_async=True)
 RENAME_FED = CommandHandler("renamefed", rename_fed, run_async=True)

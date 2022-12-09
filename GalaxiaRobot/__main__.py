@@ -30,12 +30,12 @@ from telethon import __version__ as tver
 
 import GalaxiaRobot.modules.sql.users_sql as sql
 from GalaxiaRobot import (
+    BOT_USERNAME,
     CERT_PATH,
     DONATION_LINK,
     LOGGER,
     OWNER_ID,
     PORT,
-    BOT_USERNAME,
     START_IMG,
     SUPPORT_CHAT,
     TOKEN,
@@ -467,7 +467,9 @@ def Galaxia_about_callback(update, context):
                         InlineKeyboardButton(
                             text="🥤 ʀᴇᴘᴏ 🥤", url="https://github.com/TEAM-ABG/ExonRobot"
                         ),
-                        InlineKeyboardButton(text="ɪɴғᴏ", callback_data="Galaxia_credit"),
+                        InlineKeyboardButton(
+                            text="ɪɴғᴏ", callback_data="Galaxia_credit"
+                        ),
                     ],
                     [
                         InlineKeyboardButton(
@@ -475,7 +477,9 @@ def Galaxia_about_callback(update, context):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="•ʙᴀᴄᴋ•", callback_data="Galaxia_back"),
+                        InlineKeyboardButton(
+                            text="•ʙᴀᴄᴋ•", callback_data="Galaxia_back"
+                        ),
                     ],
                 ]
             ),
@@ -546,7 +550,9 @@ def Galaxia_about_callback(update, context):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="🍸 ʙᴏᴛ 🍸", callback_data="Galaxia_mbot"),
+                        InlineKeyboardButton(
+                            text="🍸 ʙᴏᴛ 🍸", callback_data="Galaxia_mbot"
+                        ),
                         InlineKeyboardButton(
                             text="🍻 ᴇxᴛʀᴀ 🍻️", callback_data="Galaxia_mextra"
                         ),
@@ -587,7 +593,9 @@ def Galaxia_about_callback(update, context):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text=" •ɢᴏ ʙᴀᴄᴋ• ", callback_data="Galaxia_"),
+                        InlineKeyboardButton(
+                            text=" •ɢᴏ ʙᴀᴄᴋ• ", callback_data="Galaxia_"
+                        ),
                     ],
                 ]
             ),

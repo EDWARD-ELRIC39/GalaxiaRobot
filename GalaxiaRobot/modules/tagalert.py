@@ -312,7 +312,6 @@ async def mentioned_alert(client, message):
         return message.continue_propagation()
 
 
-
 __mod_name__ = "𝚃ᴀɢs 📯"
 
 

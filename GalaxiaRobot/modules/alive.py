@@ -8,7 +8,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
 
-from GalaxiaRobot import OWNER_USERNAME, SUPPORT_CHAT, pbot, BOT_USERNAME as abishnoi
+from GalaxiaRobot import BOT_USERNAME as abishnoi
+from GalaxiaRobot import OWNER_USERNAME, SUPPORT_CHAT, pbot
 
 PHOTO = [
     "https://telegra.ph/file/47f1c6b57321808e9eb61.jpg",

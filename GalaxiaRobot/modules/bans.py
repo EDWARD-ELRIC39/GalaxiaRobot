@@ -599,9 +599,6 @@ __help__ = """
 """
 
 
-
-
-
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban, run_async=True)
 TEMPBAN_HANDLER = CommandHandler(["tban"], temp_ban, run_async=True)
 KICK_HANDLER = CommandHandler(["kick", "punch"], punch, run_async=True)

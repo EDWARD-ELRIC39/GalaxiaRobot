@@ -42,7 +42,6 @@ from telegram import (
 from telegram.ext import CallbackContext, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-
 from GalaxiaRobot import dispatcher
 from GalaxiaRobot import telethn as bot
 from GalaxiaRobot.events import register as Asau
@@ -929,6 +928,7 @@ async def drawText(image_path, text):
     webp_file = os.path.join(image_name)
     img.save(webp_file, "webp")
     return webp_file
+
 
 __mod_name__ = "𝚂ᴛɪᴄᴋᴇʀ 😵"
 

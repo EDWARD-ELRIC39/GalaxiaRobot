@@ -358,7 +358,6 @@ def woof(update, context):
     msg.reply_photo(nekos.img(target))
 
 
-
 __mod_name__ = "𝙽sғᴡ 🍂"
 __help__ = """
  **ꜱғᴡ ᴍᴏᴅᴜʟᴇ:**
@@ -421,8 +420,6 @@ __help__ = """
 
 
 """
-
-
 
 
 WALLPAPER_HANDLER = CommandHandler("wallpaper", wallpaper, run_async=True)

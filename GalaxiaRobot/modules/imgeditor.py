@@ -13,8 +13,6 @@ from pyrogram.types import (
 )
 
 from GalaxiaRobot import pbot
-
-
 from GalaxiaRobot.ex_plugins.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,

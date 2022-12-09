@@ -626,7 +626,6 @@ __help__ = """
  """
 
 
-
 __command_list__ = [
     "anime",
     "manga",

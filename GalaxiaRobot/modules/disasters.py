@@ -7,7 +7,15 @@ from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html
 
-from GalaxiaRobot import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
+from GalaxiaRobot import (
+    DEMONS,
+    DEV_USERS,
+    DRAGONS,
+    OWNER_ID,
+    TIGERS,
+    WOLVES,
+    dispatcher,
+)
 from GalaxiaRobot.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,

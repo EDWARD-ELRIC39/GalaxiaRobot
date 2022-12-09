@@ -11,7 +11,15 @@ from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html
 
 import GalaxiaRobot.modules.sql.blacklistusers_sql as sql
-from GalaxiaRobot import DEMONS, DEV_USERS, DRAGONS, OWNER_ID, TIGERS, WOLVES, dispatcher
+from GalaxiaRobot import (
+    DEMONS,
+    DEV_USERS,
+    DRAGONS,
+    OWNER_ID,
+    TIGERS,
+    WOLVES,
+    dispatcher,
+)
 from GalaxiaRobot.modules.helper_funcs.chat_status import dev_plus
 from GalaxiaRobot.modules.helper_funcs.extraction import (
     extract_user,

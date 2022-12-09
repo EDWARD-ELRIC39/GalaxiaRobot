@@ -46,9 +46,6 @@ __help__ = """
 """
 
 
-
-
-
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
 

@@ -266,7 +266,6 @@ __help__ = """
 """
 
 
-
 __handlers__ = [
     SET_CLEAN_BLUE_TEXT_HANDLER,
     ADD_CLEAN_BLUE_TEXT_HANDLER,

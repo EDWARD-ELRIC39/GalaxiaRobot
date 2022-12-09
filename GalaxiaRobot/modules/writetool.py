@@ -7,7 +7,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from GalaxiaRobot import dispatcher
-from GalaxiaRobot import pbot as loda, BOT_USERNAME as fuck
+from GalaxiaRobot import pbot as loda
 
 
 @loda.on_message(filters.command("write"))

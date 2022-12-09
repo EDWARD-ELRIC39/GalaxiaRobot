@@ -305,12 +305,7 @@ dispatcher.add_handler(CLOCKANIMATION_HANDLER)
 dispatcher.add_handler(BLOCKANIMATION_HANDLER)
 
 
-
-
 __mod_name__ = "Animation"
-
-
-
 
 
 __command_list__ = [

@@ -42,7 +42,6 @@ eg:  /tl ja//en: ᴛʀᴀɴsʟᴀᴛᴇs ғʀᴏᴍ ᴊᴀᴘᴀɴᴇsᴇ ᴛᴏ
 """
 
 
-
 trans = Translator()
 
 

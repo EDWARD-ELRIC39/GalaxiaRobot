@@ -427,7 +427,6 @@ __help__ = """
 """
 
 
-
 CONNECT_CHAT_HANDLER = CommandHandler(
     "connect", connect_chat, pass_args=True, run_async=True
 )

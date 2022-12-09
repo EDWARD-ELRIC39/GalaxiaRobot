@@ -74,7 +74,6 @@ def ping_func(to_ping: List[str]) -> List[str]:
     return ping_result
 
 
-
 def ping(update: Update, context: CallbackContext):
     msg = update.effective_message
 
