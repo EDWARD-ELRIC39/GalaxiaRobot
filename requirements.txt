@@ -88,7 +88,7 @@ multicolorcaptcha
 git+https://github.com/python-telegram-bot/ptbcontrib.git
 bs4
 humanize
-redis==4.3.5
+redis==4.4.0
 aiohttp>=2.2.5
 pytimeparse
 pyYAML>=5.1.2
