@@ -40,7 +40,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(1)
     await accha.edit("ᴀʟɪᴠɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("ᴀʟɪᴠɪɴɢ ʙᴀʙʏ ....")
+    await accha.edit("ᴀʟɪᴠɪɴɢ ᴅᴇᴀʀ  ....")
     await accha.delete()
     await asyncio.sleep(0.1)
     await m.reply_sticker("CAADBQADOwgAApqCiVf47RXri2_MrwI")
@@ -51,12 +51,12 @@ async def restart(client, m: Message):
         caption=f"""**ʜᴇʏ {m.from_user.mention},
 
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [ᴄʟɪᴄᴋ ᴍᴇ](https://t.me/{OWNER_USERNAME})
-» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
-» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
-» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
-» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-⍟ **ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `1.0`
+⍟ **Mʏ Hᴜʙʙʏ   :** [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://t.me/{OWNER_USERNAME})
+⍟ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ  :** `{lver}`
+⍟ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ  :** `{tver}`
+⍟ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ  :** `{pver}`
+⍟ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ  :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+⍟ **Bᴏᴛ Vᴇʀsɪᴏɴ  :** `1.0`
      ▱▱▱▱▱▱▱▱▱▱▱▱""",
         reply_markup=InlineKeyboardMarkup(NOOBXD),
     )
