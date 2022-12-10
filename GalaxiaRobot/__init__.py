@@ -98,8 +98,7 @@ if ENV:
     API_ID = os.environ.get("API_ID", None)
     ERROR_LOG = os.environ.get("ERROR_LOG", None)
     API_HASH = os.environ.get("API_HASH", None)
-    SESSION_STRING = os.environ.get("SESSION_STRING", None)
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    
     DB_URL = os.environ.get("SQLALCHEMY_DATABASE_URI")
     DB_URL = DB_URL.replace("postgres://", "postgresql://", 1)
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
@@ -187,7 +186,7 @@ else:
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
     MONGO_PORT = Config.MONGO_PORT
-    DB_URL = Config.SQLALCHEMY_DATABASE_URI
+    DB_URL = Config.DATABASE_URI
     MONGO_DB_URI = Config.MONGO_DB_URI
     ARQ_API_KEY = Config.ARQ_API_KEY
     ARQ_API_URL = Config.ARQ_API_URL
@@ -197,8 +196,7 @@ else:
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     NO_LOAD = Config.NO_LOAD
     ERROR_LOG = Config.ERROR_LOG
-    HEROKU_API_KEY = Config.HEROKU_API_KEY
-    HEROKU_APP_NAME = Config.HEROKU_APP_NAME
+    
     DEL_CMDS = Config.DEL_CMDS
     STRICT_GBAN = Config.STRICT_GBAN
     WORKERS = Config.WORKERS
@@ -211,7 +209,7 @@ else:
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
-    SESSION_STRING = Config.SESSION_STRING
+    
     INFOPIC = Config.INFOPIC
     BOT_USERNAME = Config.BOT_USERNAME
     STRING_SESSION = Config.STRING_SESSION
@@ -272,18 +270,7 @@ aiohttpsession = ClientSession()
 print("[INFO]: INITIALIZING ARQ CLIENT")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
-ubot = None
 
-ubot2 = None
-
-"""
-ubot2 = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
-try:
-    ubot2.start()
-except BaseException:
-    print("ᴜsᴇʀʙᴏᴛ ᴇʀʀᴏʀ! ʜᴀᴠᴇ ʏᴏᴜ ᴀᴅᴅᴇᴅ ᴀ STRING_SESSION (ᴛᴇʟᴇᴛʜᴏɴ)  ɪɴ ᴅᴇᴘʟᴏʏɪɴɢ??")
-    sys.exit(1)
-"""
 
 app = Client("app2", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
 app.start()
