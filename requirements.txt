@@ -14,7 +14,7 @@ webcolors
 hachoir
 pykeyboard
 pynewtonmath
-aiofiles
+
 ffmpeg-python
 spongemock
 zalgo-text
