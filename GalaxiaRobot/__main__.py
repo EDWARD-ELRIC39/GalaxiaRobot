@@ -928,12 +928,12 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
+                animation="https://telegra.ph/file/a6ed8df3986302848f4e5.mp4",
                 caption=f"""
-ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
+ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ.
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [❣️](https://t.me/ll_EDWARD_ELRIC_ll)
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [❣️](https://t.me/lI_EDWARD_Il)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
