@@ -34,5 +34,7 @@ erh = (
     + error_dict["!"]
     + error_dict["z"]
 )
+
+
 # console.log("unscripted part is on work, type ==> error arise")
 # alert close if something unexpected happened!
