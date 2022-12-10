@@ -37,13 +37,13 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
     DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
-    MONGO_DB_URI = "mongodb+srv://ABISHNOI_BOTS:ABISHNOI_BOTS@cluster0.oyksawx.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_DB_URI = "mongodb+srv://deadterabaap09:dead@cluster0.3a4z5gq.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "NRDIAC-BMCGZV-KKUTYX-DHJNWM-ARQ"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
-    NO_LOAD = ["rss", "math"]
+    NO_LOAD = ["rss"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
