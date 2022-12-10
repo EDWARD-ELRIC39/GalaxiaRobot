@@ -18,9 +18,9 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = ""  # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = "11597868"  # integer value, dont use ""
+    API_HASH = "326ae14ebe620f6a77277f4b979299a9"
+    TOKEN = "5273804188:AAGcsWk1Qn4HcDvI0oGeM3lLcnRYelW6hIg"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1452219013  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
     OWNER_USERNAME = "Abishnoi1M"
@@ -35,14 +35,15 @@ class Config(object):
     ERROR_LOG = -1001748128104
 
     # RECOMMENDED
-    DATABASE_URI = "elephantsql.com"
-    MONGO_DB_URI = "mongodb+srv://username:password@cluster0.oyksawx.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
+    DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
+    MONGO_DB_URI = "mongodb+srv://ABISHNOI_BOTS:ABISHNOI_BOTS@cluster0.oyksawx.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "NRDIAC-BMCGZV-KKUTYX-DHJNWM-ARQ"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
-    NO_LOAD = ["rss", "math"]
+    NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
@@ -91,7 +92,7 @@ class Config(object):
     STRING_SESSION = ""
     START_IMG = ""
     MONGO_PORT = 27017
-    MONGO_DB = "Galaxia"
+    MONGO_DB = "AsuX"
 
 
 class Production(Config):
