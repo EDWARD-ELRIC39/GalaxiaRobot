@@ -230,16 +230,20 @@ else:
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(5280801259)
+DEV_USERS.add(1452219013) #ABISHNOI ID 
+
+
+
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
 try:
 
     REDIS.ping()
 
-    LOGGER.info("[ᴀsᴜ x ʀᴏʙᴏᴛ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ʀᴇᴅɪs")
+    LOGGER.info("[ʀᴏʙᴏᴛ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ʀᴇᴅɪs")
 except BaseException:
 
-    raise Exception("[ᴀsᴜ ᴇʀʀᴏʀ]: ʀᴇᴅɪs ᴅᴀᴛᴀʙᴀsᴇ ɪs ɴᴏᴛ ᴀʟɪᴠᴇ, ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ᴀɢᴀɪɴ.")
+    raise Exception("[ ᴇʀʀᴏʀ]: ʀᴇᴅɪs ᴅᴀᴛᴀʙᴀsᴇ ɪs ɴᴏᴛ ᴀʟɪᴠᴇ, ᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ᴀɢᴀɪɴ.")
 
 finally:
 
@@ -316,9 +320,6 @@ async def get_entity(client, entity):
     return entity, entity_client
 
 
-"""
-ubot = TelegramClient(StringSession(STRING_SESSION), AP27"II_HASH)
-"""
 
 bot = TelegramClient(None, api_id=API_ID, api_hash=API_HASH)
 
