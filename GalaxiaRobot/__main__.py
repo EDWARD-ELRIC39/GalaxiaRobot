@@ -933,7 +933,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪꜱʜɴᴏɪ](https://t.me/ll_EDWARD_ELRIC_ll)
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [❣️](https://t.me/ll_EDWARD_ELRIC_ll)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
