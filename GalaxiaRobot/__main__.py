@@ -91,22 +91,22 @@ PM_START_TEXT = """
  ➻ *ᴜsᴇʀs:* `{}`
  ➻ *chats:* `{}`
 *─────────────*
-✪ ʜɪᴛ *ʜᴇʟᴘ* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ](https://telegra.ph/file/c857b2eef66caa121531b.mp4):
+✪ ʜɪᴛ *ʜᴇʟᴘ* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ᴅᴇᴀʀ ](https://telegra.ph/file/c857b2eef66caa121531b.mp4):
 """
 
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"♥︎ ɪɴғᴏ ♥︎", callback_data="Galaxia_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text=f" 🦋 ɪɴғᴏ 🦋", callback_data="Galaxia_"),
+        InlineKeyboardButton(text="⚡ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡", url=f"tg://user?id={OWNER_ID}"),
     ],
     [
-        InlineKeyboardButton(text="🏔️ ʜᴇʟᴘ 🏔️", callback_data="help_back"),
+        InlineKeyboardButton(text="💫 ʜᴇʟᴘ 💫", callback_data="help_back"),
         InlineKeyboardButton(text="🌋 ɪɴʟɪɴᴇ 🌋", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="❣︎ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+            text="❣︎ ᴀᴅᴅ ᴍᴇ ᴅᴇᴀʀ  ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
         ),
     ],
 ]
@@ -257,7 +257,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n➣ ᴜᴘᴛɪᴍᴇ: `{}` \n➣ ᴜsᴇʀs: `{}` \n➣ ᴄʜᴀᴛs: `{}` ".format(
+            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ᴅᴇᴀʀ  !\n➣ ᴜᴘᴛɪᴍᴇ: `{}` \n➣ ᴜsᴇʀs: `{}` \n➣ ᴄʜᴀᴛs: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
@@ -371,7 +371,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⍟ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©* [ᴀʙɪsʜɴᴏɪ](https://t.me/Abishnoi1M)\n*ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ* *{}* :\n".format(
+                "*⍟ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©* [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ](https://t.me/lI_EDWARD_Il)\n*ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ* *{}* :\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -405,7 +405,7 @@ def help_button(update, context):
             next_page = int(next_match.group(1))
             query.message.edit_text(
                 text=HELP_STRINGS,
-                parse_mode=ParseMode.MARKDOWN,
+                parse_mode=ParseMode .MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(next_page + 1, HELPABLE, "help")
                 ),
@@ -451,23 +451,23 @@ def Galaxia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🥏 ᴏᴡɴᴇʀ 🥏", url="tg://user?id=1452219013"
+                            text="🍷ᴏᴡɴᴇʀ 🍷", url="tg://user?id=5977878551"
                         ),
                         InlineKeyboardButton(
-                            text="🎿 sᴜᴘᴘᴏʀᴛ 🎿", callback_data="Galaxia_support"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="🥤 ʀᴇᴘᴏ 🥤", url="https://github.com/TEAM-ABG/ExonRobot"
-                        ),
-                        InlineKeyboardButton(
-                            text="ɪɴғᴏ", callback_data="Galaxia_credit"
+                            text="🎿 sᴜᴘᴘᴏʀᴛ 🎿", callback_data="Galaxia_x_support"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="💫 ɢɪᴛʜᴜʙ 💫", url="https://github.com/KingAbishnoi"
+                            text="✨ ʀᴇᴘᴏ ✨", url="https://github.com/EDWARD-ELRIC39"
+                        ),
+                        InlineKeyboardButton(
+                            text="🔎 ɪɴғᴏ 🔍", callback_data="Galaxia_credit"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="💫 ɢɪᴛʜᴜʙ 💫", url="https://github.com/EDWARD-ELRIC39"
                         ),
                     ],
                     [
@@ -497,7 +497,7 @@ def Galaxia_about_callback(update, context):
 
     elif query.data == "Galaxia_support":
         query.message.edit_text(
-            text="❤️"
+            text="🦋"
             f"\nᴊᴏɪɴ ᴍʏ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ғᴏʀ sᴇᴇ ᴏʀ ʀᴇᴘᴏʀᴛ ᴀ ᴘʀᴏʙʟᴇᴍ ᴏɴ {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -531,26 +531,26 @@ def Galaxia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🧫 ɢɪᴛʜᴜʙ 🧫", url="https://github.com/KingAbishnoi"
+                            text="🧫 ɢɪᴛʜᴜʙ 🧫", url="https://github.com/EDWARD-ELRIC39"
                         ),
                         InlineKeyboardButton(
-                            text="🔧 ᴜᴘᴅᴀᴛᴇ 🔧", url="https://t.me/Abishnoi_bots"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="🧬 ᴀʙɪsʜɴᴏɪ 🧬", url="https://t.me/Abishnoi1M"
-                        ),
-                        InlineKeyboardButton(
-                            text="🥊 ᴄʜᴀɴɴᴇʟ 🥊", url="https://t.me/Abishnoiyt"
+                            text="🔧 ᴜᴘᴅᴀᴛᴇ 🔧", url="https://t.me/GALAXIA_X_UPDATES"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🤝 ᴄʜᴀᴛ ɢʀᴏᴜᴘ 🤝", url="https://t.me/Abishnoigamer"
+                            text="🧬 ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ 🧬", url="https://t.me/YOUR_EDWARD"
                         ),
                         InlineKeyboardButton(
-                            text="👊 ғᴜɴ 👊", url="https://t.me/Abishnoi"
+                            text="🥊 ᴄʜᴀɴɴᴇʟ 🥊", url="https://t.me/YOUR_EDWARD"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="🤝 ᴄʜᴀᴛ ɢʀᴏᴜᴘ 🤝", url="https://t.me/DARK_COUNCIL"
+                        ),
+                        InlineKeyboardButton(
+                            text="🎉 ғᴜɴ 🎉", url="https://t.me/DARK_COUNCIL"
                         ),
                     ],
                     [
@@ -616,7 +616,7 @@ def get_help(update: Update, context: CallbackContext):
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
         module = args[1].lower()
         text = (
-            "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©* [ᴀʙɪsʜɴᴏɪ](https://t.me/Abishnoi1M) \n`ʜᴇʀᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ` *{}*:\n".format(
+            "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©* [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ](https://t.me/lI_EDWARD_Il) \n`ʜᴇʀᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ` *{}*:\n".format(
                 HELPABLE[module].__mod_name__
             )
             + HELPABLE[module].__help__
