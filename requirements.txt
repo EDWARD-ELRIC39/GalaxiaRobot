@@ -93,6 +93,6 @@ aiohttp>=2.2.5
 pytimeparse
 pyYAML>=5.1.2
 pyaml
-aiohttp
+
 nekos.py
 html_telegraph_poster
