@@ -215,7 +215,7 @@ if is_module_loaded(FILENAME):
             return f"ᴛʜɪꜱ ɢʀᴏᴜᴘ ʜᴀꜱ ᴀʟʟ ɪᴛ'ꜱ ʟᴏɢꜱ ꜱᴇɴᴛ ᴛᴏ: {escape_markdown(log_channel_info.title)} (`{log_channel}`)"
         return "ɴᴏ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ɪꜱ ꜱᴇᴛ ғᴏʀ ᴛʜɪꜱ ɢʀᴏᴜᴘ!"
 
-    __mod_name__ = "Log Channel​"
+    __mod_name__ = "𝙲-ʟᴏɢs 😖"
 
     LOG_HANDLER = CommandHandler("logchannel", logging, run_async=True)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog, run_async=True)
