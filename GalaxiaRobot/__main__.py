@@ -124,7 +124,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """ʜᴇʏᴀ, ɢʟᴀᴅ ᴛᴏ ʜᴇᴀʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
- ʏᴏᴜ ᴄᴀɴ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ ᴘʀᴏᴊᴇᴄᴛ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ @Abishnoi1M 
+ ʏᴏᴜ ᴄᴀɴ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ ᴘʀᴏᴊᴇᴄᴛ ʙʏ ᴄᴏɴᴛᴀᴄᴛɪɴɢ @lI_EDWARD_Il 
  sᴜᴘᴘᴏʀᴛɪɴɢ ɪsɴᴛ ᴀʟᴡᴀʏs ғɪɴᴀɴᴄɪᴀʟ! 
  ᴛʜᴏsᴇ ᴡʜᴏ ᴄᴀɴɴᴏᴛ ᴘʀᴏᴠɪᴅᴇ ᴍᴏɴᴇᴛᴀʀʏ sᴜᴘᴘᴏʀᴛ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴜs ᴅᴇᴠᴇʟᴏᴘ ᴛʜᴇ ʙᴏᴛ ᴀᴛ ."""
 
@@ -238,9 +238,9 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.2)
-            lol.edit_text("🎊")
+            lol.edit_text("🌹")
             time.sleep(0.2)
-            lol.edit_text("⚡")
+            lol.edit_text("🦋")
             time.sleep(0.3)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.2)
@@ -563,7 +563,7 @@ def Galaxia_about_callback(update, context):
                             text="🍹 ꜱᴜᴅᴏ 🍹", callback_data="Galaxia_msudo"
                         ),
                         InlineKeyboardButton(
-                            text="🥂 ᴏᴡɴᴇʀ 🥂", url="tg://user?id=1452219013"
+                            text="🥂 ᴏᴡɴᴇʀ 🥂", url="tg://user?id=5977878551"
                         ),
                     ],
                     [
@@ -587,10 +587,10 @@ def Galaxia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🔻 sᴜᴘᴘᴏʀᴛ 🔺", url="t.me/Abishnoigamer"
+                            text="🔻 sᴜᴘᴘᴏʀᴛ 🔺", url="t.me/GALAXIA_x_SUPPORT"
                         ),
                         InlineKeyboardButton(
-                            text="🔸 ᴜᴘᴅᴀᴛᴇ 🔹", url="https://t.me/Abishnoi_bots"
+                            text="🔸 ᴜᴘᴅᴀᴛᴇ 🔹", url="https://t.me/YOUR_EDWARD"
                         ),
                     ],
                     [
@@ -608,7 +608,7 @@ def Galaxia_about_callback(update, context):
 
     elif query.data == "Galaxia_credit":
         query.message.edit_text(
-            text=f"๏ {dispatcher.bot.first_name}\n" f"\nɪɴғᴏ ᴀʙᴏᴜᴛ ᴀʙɪsʜɴᴏɪ ",
+            text=f"๏ {dispatcher.bot.first_name}\n" f"\nɪɴғᴏ ᴀʙᴏᴜᴛ ᴇᴅᴡᴀʀᴅ  ",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
