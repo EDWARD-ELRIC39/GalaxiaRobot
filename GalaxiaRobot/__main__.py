@@ -51,13 +51,6 @@ from GalaxiaRobot.modules import ALL_MODULES
 from GalaxiaRobot.modules.Asustats import bot_sys_stats
 from GalaxiaRobot.modules.helper_funcs.chat_status import is_user_admin
 from GalaxiaRobot.modules.helper_funcs.misc import paginate_modules
-from GalaxiaRobot.modules.xnxx import (
-    admin_cmd,
-    bot_cmd,
-    extra_chutiyapa,
-    play_cmd,
-    sudo_cmd,
-)
 
 
 def get_readable_time(seconds: int) -> str:
@@ -439,7 +432,7 @@ def help_button(update, context):
 
 
 def Galaxia_about_callback(update, context):
-    nm = update.effective_user.first_name
+    update.effective_user.first_name
     query = update.callback_query
     if query.data == "Galaxia_":
         query.message.edit_text(
@@ -501,7 +494,6 @@ def Galaxia_about_callback(update, context):
             timeout=60,
             disable_web_page_preview=False,
         )
-
 
     elif query.data == "Galaxia_support":
         query.message.edit_text(
