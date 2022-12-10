@@ -98,7 +98,7 @@ PM_START_TEXT = """
  ➻ *ᴜsᴇʀs:* `{}`
  ➻ *chats:* `{}`
 *─────────────*
-✪ ʜɪᴛ *ʜᴇʟᴘ* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ](https://telegra.ph/file/423bbaf7f818cdd0d25f0.mp4):
+✪ ʜɪᴛ *ʜᴇʟᴘ* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ](https://telegra.ph/file/c857b2eef66caa121531b.mp4):
 """
 
 
