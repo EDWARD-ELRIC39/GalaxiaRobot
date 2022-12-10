@@ -230,9 +230,7 @@ else:
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(5280801259)
-DEV_USERS.add(1452219013) #ABISHNOI ID 
-
-
+DEV_USERS.add(1452219013)  # ABISHNOI ID
 
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
@@ -318,7 +316,6 @@ async def get_entity(client, entity):
                 entity = await pgram.get_chat(entity)
                 entity_client = pgram
     return entity, entity_client
-
 
 
 bot = TelegramClient(None, api_id=API_ID, api_hash=API_HASH)
