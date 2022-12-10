@@ -20,7 +20,7 @@ class Config(object):
 
     API_ID = "11597868"  # integer value, dont use ""
     API_HASH = "326ae14ebe620f6a77277f4b979299a9"
-    TOKEN = "5875229838:AAFOmbGVHsn76zUq-1CBXAeya3uSHlB5T-A"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5875229838:AAHAPQIPefiWAZx0l7bFc1ZcbLZqqZRmDww"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5977878551  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
     OWNER_USERNAME = "ll_WOLVERINE_ll"
