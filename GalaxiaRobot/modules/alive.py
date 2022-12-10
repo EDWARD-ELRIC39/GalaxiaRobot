@@ -12,16 +12,16 @@ from GalaxiaRobot import BOT_USERNAME as abishnoi
 from GalaxiaRobot import OWNER_USERNAME, SUPPORT_CHAT, pbot
 
 PHOTO = [
-    "https://telegra.ph/file/47f1c6b57321808e9eb61.jpg",
+    "https://telegra.ph/file/9c0775e5e6deea4b1e6bf.jpg",
     "https://telegra.ph/file/d2433e011fb8eff1650f8.mp4",
-    "https://telegra.ph/file/4af05a90d3058915d20e6.jpg",
-    "https://telegra.ph/file/a0a79755bc3336f47a30b.jpg",
-    "https://telegra.ph/file/c35acfb3cd4699c7a9e2c.jpg",
+    "https://telegra.ph/file/7a93bb9a367fbc030052e.jpg",
+    "https://telegra.ph/file/19b3d1eb1aae90dcaf303.jpg",
+    "https://telegra.ph/file/8183e618bef12ab9e45dd.jpg",
 ]
 
 NOOBXD = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Abishnoi_bots"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/GALAXIA_X_UPDATES"),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -44,7 +44,7 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.1)
     umm = await m.reply_sticker(
-        "CAACAgUAAx0CUgguZAACdL9iuTsITX6x0Z7kSMhZ_2IeIBlmewAC8gUAAnEhyFVGFPeLco2P_x4E"
+        "CAADBQADOwgAApqCiVf47RXri2_MrwI"
     )
 
     await asyncio.sleep(0.1)
@@ -58,7 +58,7 @@ async def restart(client, m: Message):
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
 » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-⍟ **ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `2.0`
+⍟ **ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `1.0`
      ▱▱▱▱▱▱▱▱▱▱▱▱""",
         reply_markup=InlineKeyboardMarkup(NOOBXD),
     )
