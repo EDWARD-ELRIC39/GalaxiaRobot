@@ -91,13 +91,14 @@ PM_START_TEX = """
 
 PM_START_TEXT = """
 *ʜᴇʟʟᴏ {} !*
-✪ ɪ ᴀᴍ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ \nᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ
+𝐈 𝐀ᴍ 𝐀ɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ 𝐆ʀᴏᴜᴘ 
+𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ 𝐀 ʟᴏᴛ ᴏғ ᴄᴏᴏʟ 𝐅ᴇᴀᴛᴜʀᴇs.
 *─────────────*
  ➻ *ᴜᴘᴛɪᴍᴇ:* `{}`
  ➻ *ᴜsᴇʀs:* `{}`
  ➻ *chats:* `{}`
 *─────────────*
-✪ ʜɪᴛ *ʜᴇʟᴘ* ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ:
+✪ ʜɪᴛ *ʜᴇʟᴘ* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ](https://telegra.ph/file/423bbaf7f818cdd0d25f0.mp4):
 """
 
 
@@ -275,17 +276,17 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="ꜱᴜᴘᴘᴏʀᴛ",
-                            url=f"https://t.me/Abishnoigamer",
+                            url=f"https://t.me/GALAXIA_X_SUPPORT",
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇꜱ",
-                            url=f"https://t.me/Abishnoi_bots",
+                            url=f"https://t.me/GALAXIA_X_UPDATES",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
                             text="ᴏᴡɴᴇʀ",
-                            url="https://t.me/Abishnoi1M",
+                            url="https://t.me/lI_EDWARD_Il",
                         ),
                         InlineKeyboardButton(
                             text="ᴄʟᴏsᴇ",
