@@ -371,6 +371,7 @@ DB = db.get_database("bot")
 ubot2 = None
 ubot = None
 
+
 async def get_entity(client, entity):
     entity_client = client
     if not isinstance(entity, Chat):
