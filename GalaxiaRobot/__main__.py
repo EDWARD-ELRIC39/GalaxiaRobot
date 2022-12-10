@@ -105,7 +105,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(text=f"♥︎ ɪɴғᴏ ♥︎", callback_data="Galaxia_"),
-        InlineKeyboardButton(text=f"⛰️ ᴍᴜsɪᴄ ⛰️", callback_data="Galaxia_music"),
+        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
     ],
     [
         InlineKeyboardButton(text="🏔️ ʜᴇʟᴘ 🏔️", callback_data="help_back"),
