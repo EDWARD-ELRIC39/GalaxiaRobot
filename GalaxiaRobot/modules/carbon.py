@@ -31,7 +31,7 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-ABISHNOIX = "https://telegra.ph/file/bff9ee4cf39621303e292.jpg"
+ABISHNOIX = "https://telegra.ph/file/eba12c0e4af9992a7d4da.jpg"
 
 
 @pbot.on_message(filters.command("repo"))
@@ -40,11 +40,11 @@ async def repo(_, message):
         photo=ABISHNOIX,
         caption=f"""✨ **ʜᴇʏ {message.from_user.mention},
 
-**ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{y()}`
-**ʟɪʙʀᴀʀʏ ᴠᴇʀꜱɪᴏɴ :** `{o}`
-**ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{s}`
-**ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀꜱɪᴏɴ :** `{z}`
-**ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ:** `2.0`
+**Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ  :** `{y()}`
+**Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ  :** `{o}`
+**Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ  :** `{s}`
+**Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ  :** `{z}`
+**Rᴏʙᴏᴛ Vᴇʀsɪᴏɴ :** `2.0`
 **ᴇɴᴊᴏʏ**
 """,
         reply_markup=InlineKeyboardMarkup(
@@ -54,7 +54,7 @@ async def repo(_, message):
                         "•ᴍᴜꜱɪᴄ•", url="https://github.com/Abishnoi69/AsuXMusic"
                     ),
                     InlineKeyboardButton(
-                        "•ʀᴏʙᴏᴠ1•", url="https://github.com/Abishnoi69/ExonRobot"
+                        "•ʀᴏʙᴏ•", url="https://github.com/Abishnoi69/ExonRobot"
                     ),
                 ]
             ]
