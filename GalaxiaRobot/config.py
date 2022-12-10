@@ -20,12 +20,12 @@ class Config(object):
 
     API_ID = "11597868"  # integer value, dont use ""
     API_HASH = "326ae14ebe620f6a77277f4b979299a9"
-    TOKEN = "5273804188:AAGcsWk1Qn4HcDvI0oGeM3lLcnRYelW6hIg"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1452219013  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    TOKEN = "5875229838:AAFOmbGVHsn76zUq-1CBXAeya3uSHlB5T-A"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5977878551  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
-    OWNER_USERNAME = "Abishnoi1M"
+    OWNER_USERNAME = "ll_WOLVERINE_ll"
     BOT_USERNAME = ""
-    SUPPORT_CHAT = "AbishnoiMF"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "GALAXIA_X_SUPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001748128104
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -43,7 +43,7 @@ class Config(object):
     ARQ_API_KEY = "NRDIAC-BMCGZV-KKUTYX-DHJNWM-ARQ"
     BOT_API_URL = "https://api.telegram.org/bot"
     LOAD = []
-    NO_LOAD = ["rss", "cleaner", "connection", "math"]
+    NO_LOAD = ["rss", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
