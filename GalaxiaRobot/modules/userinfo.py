@@ -264,20 +264,20 @@ def info(update: Update, context: CallbackContext):
 
     text = (
         f"<b>═「ᴀᴘᴘʀᴀɪꜱᴀʟ ʀᴇꜱᴜʟᴛꜱ:═</b>\n"
-        f"ɪᴅ: <code>{user.id}</code>\n"
-        f"ғɪʀꜱᴛɴᴀᴍᴇ: {html.escape(user.first_name)}"
+        f"✪ɪᴅ: <code>{user.id}</code>\n"
+        f"✪ғɪʀꜱᴛɴᴀᴍᴇ: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\nʟᴀꜱᴛ ɴᴀᴍᴇ: {html.escape(user.last_name)}"
+        text += f"\n✪ʟᴀꜱᴛ ɴᴀᴍᴇ: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\nᴜꜱᴇʀɴᴀᴍᴇ: @{html.escape(user.username)}"
+        text += f"\n✪ᴜꜱᴇʀɴᴀᴍᴇ: @{html.escape(user.username)}"
 
-    text += f"\nᴜꜱᴇʀʟɪɴᴋ: {mention_html(user.id, 'ʟɪɴᴋ')}"
+    text += f"\n✪ᴜꜱᴇʀʟɪɴᴋ: {mention_html(user.id, 'ʟɪɴᴋ')}"
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\nᴘʀᴇꜱᴇɴᴄᴇ: <code>{}</code>"
+        _stext = "\n✪ᴘʀᴇꜱᴇɴᴄᴇ: <code>{}</code>"
 
         afk_st = is_user_afk(user.id)
         if afk_st:
@@ -293,14 +293,14 @@ def info(update: Update, context: CallbackContext):
                     text += _stext.format("ᴀᴅᴍɪɴ")
     if user_id not in [bot.id, 777000, 1087968824]:
         userhp = hpmanager(user)
-        text += f"\n\n<b>ʜᴇᴀʟᴛʜ:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]. [<a href='https://t.me/abishnoi_bots/60'>✷</a>]"
+        text += f"\n\n<b>✪ʜᴇᴀʟᴛʜ:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]. [<a href='https://t.me/abishnoi_bots/60'>✷</a>]"
 
     try:
         spamwtc = sw.get_ban(int(user.id))
         if spamwtc:
             text += "\n\n<b>ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ ɪꜱ ꜱᴘᴀᴍᴡᴀᴛᴄʜᴇᴅ!</b>"
             text += f"\nʀᴇᴀꜱᴏɴ: <pre>{spamwtc.reason}</pre>"
-            text += "\nᴀᴘᴘᴇᴀʟ at @SpamWatchSupport"
+            text += "\nᴀᴘᴘᴇᴀʟ at @galaxia_support"
     except:
         pass  # don't crash if api is down somehow...
 
@@ -310,7 +310,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nᴛʜᴇ ᴅɪꜱᴀꜱᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ ɪꜱ ♡ ᴏᴡɴᴇʀ ♡."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴍᴇᴍʙᴇʀ ᴏғ ᴛᴇᴀᴍ ᴀʙɪꜱʜɴᴏɪ."
+        text += "\n\nᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴍᴇᴍʙᴇʀ ᴏғ ᴛᴇᴀᴍ ᴇᴅᴡᴀʀᴅ ."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nᴛʜᴇ ᴅɪꜱᴀꜱᴛᴇʀ ʟᴇᴠᴇʟ ᴏғ ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ ɪꜱ 'ᴅʀᴀɢᴏɴ`."
@@ -454,8 +454,8 @@ def stats(update, context):
             status
             + "\n*❉    ↫ ʙᴏᴛ ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ ↬  ❉*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[✦ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/{SUPPORT_CHAT}) | [✦ ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/Abishnoi_bots)\n\n"
-            + "══「 ʙʏ [ᴋɪɴɢ ᴀʙɪꜱʜɴᴏɪ](https://github.com/KingAbishnoi) 」══\n",
+            + f"\n\n[✦ ꜱᴜᴘᴘᴏʀᴛ](https://t.me/{SUPPORT_CHAT}) | [✦ ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/galaxia_x_updates)\n\n"
+            + "══「 ʙʏ [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://github.com/EDWARD-ELRIC39) 」══\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -467,9 +467,9 @@ def stats(update, context):
                         "\n*❉    ↫ ʙᴏᴛ ꜱᴛᴀᴛɪꜱᴛɪᴄꜱ ↬  ❉*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n✦ [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/{SUPPORT_CHAT}) | ✦ [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/Abishnoi_bots)\n\n"
+                    + f"\n\n✦ [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/{SUPPORT_CHAT}) | ✦ [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/galaxia_x_support)\n\n"
                 )
-                + "═「 ʙʏ [ᴛᴇᴀᴍ ᴀʙɢ ʀᴏʙᴏᴛ](https://github.com/KingAbishnoi) 」═\n"
+                + "═「 ʙʏ [ɢᴀʟᴀxɪᴀ  ʀᴏʙᴏᴛ](https://github.com/EDWARD-ELRIC39) 」═\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
