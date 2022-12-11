@@ -1,7 +1,7 @@
 # ""DEAR PRO PEOPLE,  DON'T REMOVE & CHANGE THIS LINE
-# TG :- @Abishnoi1M
-#     MY ALL BOTS :- Abishnoi_bots
-#     GITHUB :- KingAbishnoi ""
+# TG :- @lI_EDWARD_Il
+#     MY ALL BOTS :- 
+#     GITHUB :-  ""
 
 
 import time
@@ -78,15 +78,15 @@ def ping(update: Update, context: CallbackContext):
     msg = update.effective_message
 
     start_time = time.time()
-    message = msg.reply_text("ᴘɪɴɢɪɴɢ...")
+    message = msg.reply_text("Pɪɴɢɪɴɢ ...")
     end_time = time.time()
     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
     uptime = get_readable_time((time.time() - StartTime))
 
     message.edit_text(
-        "<b>𝗣𝗢𝗡𝗚</b> ✨\n"
-        "<b>ᴛɪᴍᴇ ᴛᴀᴋᴇɴ:</b> <code>{}</code>\n"
-        "<b>ꜱᴇʀᴠɪᴄᴇ ᴜᴘᴛɪᴍᴇ:</b> <code>{}</code>".format(telegram_ping, uptime),
+        "<b>ＰＯＮＧ </b> 🦋\n"
+        "<b>Tɪᴍᴇ Tᴀᴋᴇɴ :</b> <code>{}</code>\n"
+        "<b>Sᴇʀᴠɪᴄᴇ Uᴘᴛɪᴍᴇ:</b> <code>{}</code>".format(telegram_ping, uptime),
         parse_mode=ParseMode.HTML,
     )
 
