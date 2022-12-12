@@ -24,7 +24,7 @@ psutil
 
 Pillow
 CurrencyConverter
-googletrans==2.4.0
+googletrans==3.0.0
 google-trans-new
 jikanpy
 speedtest-cli
