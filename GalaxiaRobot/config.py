@@ -18,24 +18,24 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "11597868"  # integer value, dont use ""
-    API_HASH = "326ae14ebe620f6a77277f4b979299a9"
+    API_ID = "5977878551"  # integer value, dont use ""
+    API_HASH = "9e63f019a328412b76949da33de990a7"
     TOKEN = "5875229838:AAHAPQIPefiWAZx0l7bFc1ZcbLZqqZRmDww"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5977878551  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
-    OWNER_USERNAME = "ll_WOLVERINE_ll"
-    BOT_USERNAME = ""
+    OWNER_USERNAME = "@lI_EDWARD_Il"
+    BOT_USERNAME = "@Galaxia_x_robot"
     SUPPORT_CHAT = "GALAXIA_X_SUPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001748128104
+        -1001815886010
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001748128104
+        -1001815886010
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    ERROR_LOG = -1001748128104
+    ERROR_LOG = -1001815886010
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
+    SQLALCHEMY_DATABASE_URI = "postgres://uoumslho:L_nNq8sP1pFjutWnG-tJIVNnfBHOS7JE@hattie.db.elephantsql.com/uoumslho"
     DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
     MONGO_DB_URI = "mongodb+srv://deadterabaap09:dead@cluster0.3a4z5gq.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"
