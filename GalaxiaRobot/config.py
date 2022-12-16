@@ -38,7 +38,7 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "postgres://uoumslho:L_nNq8sP1pFjutWnG-tJIVNnfBHOS7JE@hattie.db.elephantsql.com/uoumslho"
     DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
     MONGO_DB_URI = "mongodb+srv://deadterabaap09:dead@cluster0.3a4z5gq.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
-    REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"
+    REDIS_URL = "redis://default:6C4fJge3CpSuuwXpxiJ1evy8SjhtBJO4@redis-18515.c305.ap-south-1-1.ec2.cloud.redislabs.com:18515"
     ARQ_API_URL = "https://arq.hamker.in"
     ARQ_API_KEY = "NRDIAC-BMCGZV-KKUTYX-DHJNWM-ARQ"
     BOT_API_URL = "https://api.telegram.org/bot"
