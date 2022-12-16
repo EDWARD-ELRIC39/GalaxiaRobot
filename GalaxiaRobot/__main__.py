@@ -459,7 +459,7 @@ def Galaxia_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="✨ ʀᴇᴘᴏ ✨", url="https://github.com/EDWARD-ELRIC39"
+                            text="✨ ʀᴇᴘᴏ ✨", url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot"
                         ),
                         InlineKeyboardButton(
                             text="🔎 ɪɴғᴏ 🔍", callback_data="Galaxia_credit"
@@ -851,7 +851,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ.
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [❣️](https://t.me/lI_EDWARD_Il)
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://t.me/lI_EDWARD_Il)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
