@@ -459,7 +459,8 @@ def Galaxia_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="✨ ʀᴇᴘᴏ ✨", url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot"
+                            text="✨ ʀᴇᴘᴏ ✨",
+                            url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot",
                         ),
                         InlineKeyboardButton(
                             text="🔎 ɪɴғᴏ 🔍", callback_data="Galaxia_credit"
