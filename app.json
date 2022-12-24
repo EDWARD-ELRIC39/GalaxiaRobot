@@ -1,12 +1,12 @@
 {
 
-    "name": "EXON-ROBOT",
+    "name": "GALAXIA-ROBOT",
 
     "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
 
-    "repository": "https://github.com/Abishnoi69/ExonRobot",
+    "repository": "https://github.com/EDWARD-ELRIC39/GalaxiaRobot",
 
-    "logo": "https://telegra.ph/file/7ea08a60e6732a5e1689f.jpg",
+    "logo": "https://telegra.ph/file/a4d31cd7596e281c7f077.jpg",
 
     "keywords": [
 
@@ -24,7 +24,7 @@
 
     ],
 
-    "repository": "https://github.com/Abishnoi69/EXONROBOT2",
+    "repository": "https://github.com/EDWARD-ELRIC39/GalaxiaRobot",
 
    "buildpacks": [
 
@@ -50,7 +50,7 @@
 
          "required": true,
 
-         "value": "1452219013"
+         "value": ""
 
       },
 
@@ -60,7 +60,7 @@
 
          "required": true,
 
-         "value": "-1001573019550"
+         "value": "-1001815886010"
 
       },
 
@@ -80,7 +80,7 @@
 
          "required": true,
 
-         "value": "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority"
+         "value": ""
 
       },
 
