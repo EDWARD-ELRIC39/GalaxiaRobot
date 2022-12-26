@@ -274,7 +274,7 @@ arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
 
 app = Client("app2", bot_token=TOKEN, api_id=API_ID, api_hash=API_HASH)
-#app.start()
+# app.start()
 
 Galaxia = Client("GalaxiaClient", bot_token=TOKEN, api_hash=API_HASH, api_id=API_ID)
 
