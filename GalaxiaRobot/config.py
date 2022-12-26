@@ -18,13 +18,13 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "5977878551"  # integer value, dont use ""
-    API_HASH = "9e63f019a328412b76949da33de990a7"
-    TOKEN = "5875229838:AAEQWm21vEW4GTUpBP0CcNw2-E5vaU_UvUc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = "20692349"  # integer value, dont use ""
+    API_HASH = "0783e93485f0269d47d6a707f993bdd2"
+    TOKEN = "5875229838:AAHlp2apHOa_m2-1eNVFYfU7utEmZp8SpaA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5977878551  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
-    OWNER_USERNAME = "@lI_EDWARD_Il"
-    BOT_USERNAME = "@Galaxia_x_robot"
+    OWNER_USERNAME = "lI_EDWARD_Il"
+    BOT_USERNAME = "Galaxia_x_robot"
     SUPPORT_CHAT = "GALAXIA_X_SUPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001815886010
@@ -65,9 +65,9 @@ class Config(object):
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
-    WORKERS = (
-        8  # Number of subthreads to use. Set as number of threads your processor uses
-    )
+    WORKERS = 8
+          # Number of subthreads to use. Set as number of threads your processor uses
+    
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
@@ -88,9 +88,9 @@ class Config(object):
     LASTFM_API_KEY = "yeah"
     CF_API_KEY = "jk"
     BL_CHATS = []  # List of groups that you want blacklisted.
-    SESSION_STRING = "12342"
-    STRING_SESSION = ""
-    START_IMG = "https://telegra.ph/file/0666a84c2e3618991c15b.jpg"
+    SESSION_STRING = None
+    STRING_SESSION = None
+    START_IMG = "https://telegra.ph/file/a28b6f369d196fc1d89fb.jpg"
     MONGO_PORT = 27017
     MONGO_DB = "AsuX"
 
