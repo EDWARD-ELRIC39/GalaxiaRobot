@@ -293,7 +293,7 @@ def info(update: Update, context: CallbackContext):
                     text += _stext.format("ᴀᴅᴍɪɴ")
     if user_id not in [bot.id, 777000, 1087968824]:
         userhp = hpmanager(user)
-        text += f"\n\n<b>✪ʜᴇᴀʟᴛʜ:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]. [<a href='https://t.me/abishnoi_bots/60'>✷</a>]"
+        text += f"\n\n<b>✪ʜᴇᴀʟᴛʜ:</b> <code>{userhp['earnedhp']}/{userhp['totalhp']}</code>\n[<i>{make_bar(int(userhp['percentage']))} </i>{userhp['percentage']}%]. [<a href='https://t.me/YOUR_EDWARD'>✷</a>]"
 
     try:
         spamwtc = sw.get_ban(int(user.id))
@@ -329,7 +329,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/abishnoi_bots/54">?</a>]'.format(
+        text += ' [<a href="https://t.me/DARK_COUNCIL">?</a>]'.format(
             bot.username,
         )
 
@@ -469,7 +469,7 @@ def stats(update, context):
                     )
                     + f"\n\n✦ [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/{SUPPORT_CHAT}) | ✦ [ᴜᴘᴅᴀᴛᴇꜱ](https://t.me/galaxia_x_support)\n\n"
                 )
-                + "═「 ʙʏ [ɢᴀʟᴀxɪᴀ  ʀᴏʙᴏᴛ](https://github.com/EDWARD-ELRIC39) 」═\n"
+                + "═「 ʙʏ [ɢᴀʟᴀxɪᴀ  ʀᴏʙᴏᴛ](http://t.me/Tg_ro_bot) 」═\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
