@@ -31,30 +31,30 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-ABISHNOIX = "https://telegra.ph/file/eba12c0e4af9992a7d4da.jpg"
+ABISHNOIX = "https://telegra.ph/file/d94f90fabe371f04edf0f.mp4"
 
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=ABISHNOIX,
-        caption=f"""✨ **ʜᴇʏ {message.from_user.mention},
+        caption=f"""🦋 **ʜᴇʏ {message.from_user.mention},
 
 **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ  :** `{y()}`
 **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ  :** `{o}`
 **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ  :** `{s}`
 **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ  :** `{z}`
 **Rᴏʙᴏᴛ Vᴇʀsɪᴏɴ :** `2.0`
-**ᴇɴᴊᴏʏ**
+**❣️Yᴏᴜ Aʀᴇ Sᴏ Bᴇᴀᴜᴛɪғᴜʟ 🥀**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "•ᴍᴜꜱɪᴄ•", url="https://github.com/Abishnoi69/AsuXMusic"
+                        "•ᴍᴜꜱɪᴄ•", url="https://github.com/EDWARDE-ELRIC39/GALAXIA-MUSIC"
                     ),
                     InlineKeyboardButton(
-                        "•ʀᴏʙᴏ•", url="https://github.com/Abishnoi69/ExonRobot"
+                        "•ᴍᴀɴᴀɢᴇᴍᴇɴᴛ •", url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot"
                     ),
                 ]
             ]
