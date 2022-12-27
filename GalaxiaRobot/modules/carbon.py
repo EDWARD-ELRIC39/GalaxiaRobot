@@ -51,10 +51,12 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "•ᴍᴜꜱɪᴄ•", url="https://github.com/EDWARDE-ELRIC39/GALAXIA-MUSIC"
+                        "•ᴍᴜꜱɪᴄ•",
+                        url="https://github.com/EDWARDE-ELRIC39/GALAXIA-MUSIC",
                     ),
                     InlineKeyboardButton(
-                        "•ᴍᴀɴᴀɢᴇᴍᴇɴᴛ •", url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot"
+                        "•ᴍᴀɴᴀɢᴇᴍᴇɴᴛ •",
+                        url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot",
                     ),
                 ]
             ]
