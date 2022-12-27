@@ -38,7 +38,9 @@ async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("🦋")
     await asyncio.sleep(1)
-    await accha.edit("CAACAgUAAx0CbDw4ugACBnVjqxILieXxSzMFR2qF4D8uDcxRhgACzQcAAlJhWVU1cIXnopdXeSwE..")
+    await accha.edit(
+        "CAACAgUAAx0CbDw4ugACBnVjqxILieXxSzMFR2qF4D8uDcxRhgACzQcAAlJhWVU1cIXnopdXeSwE.."
+    )
     await asyncio.sleep(0.1)
     await accha.edit("Aʟɪᴠɪɴɢ...")
     await accha.delete()
