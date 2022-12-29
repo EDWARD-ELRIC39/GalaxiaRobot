@@ -26,7 +26,7 @@ NOOBXD = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="🦋 ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🦋",
             url=f"https://t.me/{abishnoi}?startgroup=true",
         ),
     ],
@@ -39,13 +39,13 @@ async def restart(client, m: Message):
     accha = await m.reply("🦋")
     await asyncio.sleep(1)
     await accha.edit(
-        "CAACAgUAAx0CbDw4ugACBnVjqxILieXxSzMFR2qF4D8uDcxRhgACzQcAAlJhWVU1cIXnopdXeSwE.."
+        "𝑰 𝑳𝒐𝒗𝒆 𝒀𝒐𝒖 🥀💫❤️⚡.."
     )
     await asyncio.sleep(0.1)
-    await accha.edit("Aʟɪᴠɪɴɢ...")
+    await accha.edit("𝐴𝑙𝑖𝑣𝑖𝑛𝑔 ...")
     await accha.delete()
     await asyncio.sleep(0.1)
-    await m.reply_sticker("CAADBQADOwgAApqCiVf47RXri2_MrwI")
+    await m.reply_sticker("CAADBQADWgoAAnR2GFQ_zbr6j0ytZAI")
 
     await asyncio.sleep(0.1)
     await m.reply_photo(
