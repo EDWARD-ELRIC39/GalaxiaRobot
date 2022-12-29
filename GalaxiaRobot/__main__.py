@@ -238,9 +238,7 @@ def start(update: Update, context: CallbackContext):
             lol.edit_text("Sᴛᴀʀᴛɪɴɢ Gᴀʟᴀxɪᴀ ... ")
             time.sleep(0.2)
             lol.delete()
-            update.effective_message.reply_sticker(
-                "CAADBQADWgoAAnR2GFQ_zbr6j0ytZAI"
-            )
+            update.effective_message.reply_sticker("CAADBQADWgoAAnR2GFQ_zbr6j0ytZAI")
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
