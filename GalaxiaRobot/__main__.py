@@ -235,11 +235,11 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.2)
             lol.edit_text("🦋")
             time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text("Sᴛᴀʀᴛɪɴɢ Gᴀʟᴀxɪᴀ ... ")
             time.sleep(0.2)
             lol.delete()
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAJmfWNmIFkF0RCmxIYI3m2bxSNdihN-AAKXBQACVK0xVxvLLIOpwoNpKwQ"
+                "CAADBQADWgoAAnR2GFQ_zbr6j0ytZAI"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
