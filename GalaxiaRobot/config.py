@@ -90,9 +90,9 @@ class Config(object):
     BL_CHATS = []  # List of groups that you want blacklisted.
     SESSION_STRING = None
     STRING_SESSION = None
-    START_IMG = "https://telegra.ph/file/a28b6f369d196fc1d89fb.jpg"
+    START_IMG = "https://telegra.ph/file/3cf4bc694332e15470117.jpg"
     MONGO_PORT = 27017
-    MONGO_DB = "AsuX"
+    MONGO_DB = "EDWARD"
 
 
 class Production(Config):
