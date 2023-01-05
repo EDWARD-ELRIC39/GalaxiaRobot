@@ -1,3 +1,3 @@
-# flake8: noqa
+# Flake8: noqa
 
 from .InlineQueryResult import InlineQueryResultAudio, InlineQueryResultCachedDocument
