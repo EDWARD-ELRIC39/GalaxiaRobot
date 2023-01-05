@@ -111,19 +111,19 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("ᴍᴀɪɴ ʙᴏᴛ", url="https://t.me/Abishnoi_ro_bot"),
+        InlineKeyboardButton("ᴍᴀɪɴ ʙᴏᴛ", url="https://t.me/GALAXIA_x_ROBOT"),
         InlineKeyboardButton("ɢᴏ ɪɴʟɪɴᴇ!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[ᴀsᴜ x ʀᴏʙᴏᴛ ️](https://t.me/Abishnoi_bots):**
+**[Gᴀʟᴀxɪᴀ X Rᴏʙᴏᴛ](https://t.me/Abishnoi_bots):**
 **ᴍᴀɪɴʙᴏᴛ:** `{bot_state}`
 **ᴜsᴇʀʙᴏᴛ:** `{ubot_state}`
 **ᴘʏᴛʜᴏɴ:** `{pyver.split()[0]}`
 **ᴘʏʀᴏɢʀᴀᴍ:** `{pyrover}`
 **ᴍᴏɴɢᴏᴅʙ:** `{mongover}`
 **ᴘʟᴀᴛғᴏʀᴍ:** `{sys.platform}`
-**ᴘʀᴏғɪʟᴇs:** [ʙᴏᴛ](t.me/{BOT_USERNAME}) | [ᴜʙᴏᴛ](t.me/Abishnoi1M)
+**ᴘʀᴏғɪʟᴇs:** [ʙᴏᴛ](t.me/{BOT_USERNAME}) | [ᴜʙᴏᴛ](https://t.me/lI_EDWARD_Il)
 """
     answers.append(
         InlineQueryResultArticle(
@@ -420,8 +420,8 @@ async def tg_search_func(answers, text, user_id):
 
 
 async def music_inline_func(answers, query):
-    chat_id = -1001376267876
-    group_invite = "https://t.me/joinchat/Abishnoigamer"
+    chat_id = -1001660545446
+    group_invite = "https://t.me/DARK_COUNCIL"
     try:
         messages = [
             m
