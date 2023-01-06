@@ -87,27 +87,27 @@ PM_START_TEXT = """
 𝐈 𝐀ᴍ 𝐀ɴɪᴍᴇ 𝐓ʜᴇᴍᴇᴅ 𝐀ᴅᴠᴀɴᴄᴇ 𝐆ʀᴏᴜᴘ  
 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ 𝐀 ʟᴏᴛ ᴏғ ᴄᴏᴏʟ 𝐅ᴇᴀᴛᴜʀᴇs,
 𝐀ʟsᴏ ɪ 𝐂ᴀɴ 𝐏ʟᴀʏ 𝐌ᴜsɪᴄ  ɪɴ 𝐘ᴏᴜʀ 𝐂ʜᴀᴛ.!
-*─────────────*
- ➻ *Uᴘᴛɪᴍᴇ :* `{}`
- ➻ *Usᴇʀs:* `{}`
- ➻ *Cʜᴀᴛs:* `{}`
-*─────────────*
+*───────────────*
+ ⨀ *Uᴘᴛɪᴍᴇ :* `{}`
+ ⨀ *Usᴇʀs:* `{}`
+ ⨀ *Cʜᴀᴛs:* `{}`
+*───────────────*
 ✪ ʜɪᴛ */help* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 🦋](https://telegra.ph/file/ef191836dd0ba2dca0c6f.mp4):
 """
 
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"🦋 ɪɴғᴏ 🦋", callback_data="Galaxia_"),
-        InlineKeyboardButton(text="⚡ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⚡", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text=f"• ɪɴғᴏ •", callback_data="Galaxia_"),
+        InlineKeyboardButton(text="• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url=f"tg://user?id={OWNER_ID}"),
     ],
     [
-        InlineKeyboardButton(text="💫 ʜᴇʟᴘ 💫", callback_data="help_back"),
-        InlineKeyboardButton(text="🌋 ɪɴʟɪɴᴇ 🌋", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="• ʜᴇʟᴘ •", callback_data="help_back"),
+        InlineKeyboardButton(text="• ɪɴʟɪɴᴇ •", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="💫 ᴀᴅᴅ ᴍᴇ ᴅᴇᴀʀ  💫", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+            text="🦋 ᴀᴅᴅ ᴍᴇ ᴅᴇᴀʀ  🦋", url=f"t.me/{BOT_USERNAME}?startgroup=new"
         ),
     ],
 ]
@@ -269,11 +269,11 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ꜱᴜᴘᴘᴏʀᴛ",
+                            text="• ꜱᴜᴘᴘᴏʀᴛ •",
                             url=f"https://t.me/GALAXIA_X_SUPPORT",
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇꜱ",
+                            text="• ᴜᴘᴅᴀᴛᴇꜱ •",
                             url=f"https://t.me/GALAXIA_X_UPDATES",
                         ),
                     ],
