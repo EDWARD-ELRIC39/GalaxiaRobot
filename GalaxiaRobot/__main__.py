@@ -455,21 +455,21 @@ def Galaxia_about_callback(update, context):
                             text="🍷ᴏᴡɴᴇʀ 🍷", url="tg://user?id=5977878551"
                         ),
                         InlineKeyboardButton(
-                            text="🎿 sᴜᴘᴘᴏʀᴛ 🎿", callback_data="Galaxia_x_support"
+                            text="• sᴜᴘᴘᴏʀᴛ •", callback_data="Galaxia_x_support"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="✨ ʀᴇᴘᴏ ✨",
+                            text="• ʀᴇᴘᴏ •",
                             url="https://github.com/EDWARD-ELRIC39/GalaxiaRobot",
                         ),
                         InlineKeyboardButton(
-                            text="🔎 ɪɴғᴏ 🔍", callback_data="Galaxia_credit"
+                            text="• ɪɴғᴏ •", callback_data="Galaxia_credit"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="💫 ɢɪᴛʜᴜʙ 💫", url="https://github.com/EDWARD-ELRIC39"
+                            text="• ɢɪᴛʜᴜʙ •", url="https://github.com/EDWARD-ELRIC39"
                         ),
                     ],
                     [
@@ -506,10 +506,10 @@ def Galaxia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🔻 sᴜᴘᴘᴏʀᴛ 🔺", url="t.me/GALAXIA_x_SUPPORT"
+                            text="• sᴜᴘᴘᴏʀᴛ •", url="t.me/GALAXIA_x_SUPPORT"
                         ),
                         InlineKeyboardButton(
-                            text="🔸 ᴜᴘᴅᴀᴛᴇ 🔹", url="https://t.me/YOUR_EDWARD"
+                            text="• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/YOUR_EDWARD"
                         ),
                     ],
                     [
@@ -533,31 +533,31 @@ def Galaxia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🧫 ɢɪᴛʜᴜʙ 🧫", url="https://github.com/EDWARD-ELRIC39"
+                            text="• ɢɪᴛʜᴜʙ •", url="https://github.com/EDWARD-ELRIC39"
                         ),
                         InlineKeyboardButton(
-                            text="🔧 ᴜᴘᴅᴀᴛᴇ 🔧", url="https://t.me/GALAXIA_X_UPDATES"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="🧬 ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ 🧬", url="https://t.me/YOUR_EDWARD"
-                        ),
-                        InlineKeyboardButton(
-                            text="🥊 ᴄʜᴀɴɴᴇʟ 🥊", url="https://t.me/YOUR_EDWARD"
+                            text="• ᴜᴘᴅᴀᴛᴇ •", url="https://t.me/GALAXIA_X_UPDATES"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🤝 ᴄʜᴀᴛ ɢʀᴏᴜᴘ 🤝", url="https://t.me/DARK_COUNCIL"
+                            text="🍷 ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ 🍷", url="https://t.me/YOUR_EDWARD"
                         ),
                         InlineKeyboardButton(
-                            text="🎉 ғᴜɴ 🎉", url="https://t.me/DARK_COUNCIL"
+                            text="• ᴄʜᴀɴɴᴇʟ •", url="https://t.me/YOUR_EDWARD"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🤷‍♂️ ɪɴғᴏ 🤷‍♂️", callback_data="Galaxia_"
+                            text="• ᴄʜᴀᴛ ɢʀᴏᴜᴘ •", url="https://t.me/DARK_COUNCIL"
+                        ),
+                        InlineKeyboardButton(
+                            text="• ғᴜɴ •", url="https://t.me/DARK_COUNCIL"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="• ɪɴғᴏ •", callback_data="Galaxia_"
                         ),
                         InlineKeyboardButton(
                             text="• ʙᴀᴄᴋ • ", callback_data="Galaxia_back"
@@ -850,16 +850,16 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/48cad32a21c377d983420.mp4",
                 caption=f"""
-ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ.
+ㅤ🦋 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ.
 
-━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━
 ⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://t.me/lI_EDWARD_Il)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
 ⍟ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
 ⍟ **ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `1.0`
-━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━
 """,
                 parse_mode=ParseMode.MARKDOWN,
             )
