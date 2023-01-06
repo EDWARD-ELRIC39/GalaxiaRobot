@@ -91,7 +91,7 @@ PM_START_TEXT = """
  ➻ *Usᴇʀs:* `{}`
  ➻ *Cʜᴀᴛs:* `{}`
 *─────────────*
-✪ ʜɪᴛ *ʜᴇʟᴘ* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ᴅᴇᴀʀ ](https://telegra.ph/file/418f033f6070347f22bbe.jpg):
+✪ ʜɪᴛ */help* [ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ](https://telegra.ph/file/ef191836dd0ba2dca0c6f.mp4):
 """
 
 
@@ -231,14 +231,14 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.2)
-            lol.edit_text("🌹")
+            lol.edit_text("Hᴇʟʟᴏ Mʏ Dᴇᴀʀ.!🖤")
             time.sleep(0.2)
             lol.edit_text("🦋")
             time.sleep(0.3)
             lol.edit_text("Sᴛᴀʀᴛɪɴɢ Gᴀʟᴀxɪᴀ ... ")
             time.sleep(0.2)
             lol.delete()
-            update.effective_message.reply_sticker("CAADBQADWgoAAnR2GFQ_zbr6j0ytZAI")
+            update.effective_message.reply_sticker("https://telegra.ph/file/6d082614633dba8f74ece.mp4")
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
