@@ -556,9 +556,7 @@ def Galaxia_about_callback(update, context):
                         ),
                     ],
                     [
-                        InlineKeyboardButton(
-                            text="• ɪɴғᴏ •", callback_data="Galaxia_"
-                        ),
+                        InlineKeyboardButton(text="• ɪɴғᴏ •", callback_data="Galaxia_"),
                         InlineKeyboardButton(
                             text="• ʙᴀᴄᴋ • ", callback_data="Galaxia_back"
                         ),
