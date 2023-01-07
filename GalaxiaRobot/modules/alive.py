@@ -12,11 +12,11 @@ from GalaxiaRobot import BOT_USERNAME as abishnoi
 from GalaxiaRobot import OWNER_USERNAME, SUPPORT_CHAT, pbot
 
 PHOTO = [
-    "https://telegra.ph/file/9c0775e5e6deea4b1e6bf.jpg",
-    "https://telegra.ph/file/d2433e011fb8eff1650f8.mp4",
-    "https://telegra.ph/file/7a93bb9a367fbc030052e.jpg",
-    "https://telegra.ph/file/19b3d1eb1aae90dcaf303.jpg",
-    "https://telegra.ph/file/8183e618bef12ab9e45dd.jpg",
+    "https://telegra.ph/file/8ab162801b5d5cff88fc3.jpg",
+    "https://telegra.ph/file/38a95147bb35b2385c26d.jpg",
+    "https://telegra.ph/file/02694cf3d19482bcdc50d.jpg",
+    "https://telegra.ph/file/768194a9b5ceb4d1d305d.jpg",
+    "https://telegra.ph/file/1b126a38ab1ee69e61fef.jpg",
 ]
 
 NOOBXD = [
