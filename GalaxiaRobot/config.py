@@ -20,7 +20,7 @@ class Config(object):
 
     API_ID = "20692349"  # integer value, dont use ""
     API_HASH = "0783e93485f0269d47d6a707f993bdd2"
-    TOKEN = "5875229838:AAHlp2apHOa_m2-1eNVFYfU7utEmZp8SpaA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5875229838:AAHU18knNgjvA9E88xgDHvsbiANmKBcLFE4"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5977878551  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OPENWEATHERMAP_ID = 22322
     OWNER_USERNAME = "lI_EDWARD_Il"
@@ -35,7 +35,7 @@ class Config(object):
     ERROR_LOG = -1001815886010
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://uoumslho:L_nNq8sP1pFjutWnG-tJIVNnfBHOS7JE@hattie.db.elephantsql.com/uoumslho"
+    SQLALCHEMY_DATABASE_URI = "postgres://mhtpxkio:5bjfErTl8wX-ZbQS2fsLLJFOPjhjQgzz@dumbo.db.elephantsql.com/mhtpxkio"
     DATABASE_URI = "postgres://nzjjkiqk:JwOW4Vh8ANNkjynnAkg9YnyHZ0Pl6YnV@tiny.db.elephantsql.com/nzjjkiqk"
     MONGO_DB_URI = "mongodb+srv://deadterabaap09:dead@cluster0.3a4z5gq.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     REDIS_URL = "redis://default:6C4fJge3CpSuuwXpxiJ1evy8SjhtBJO4@redis-18515.c305.ap-south-1-1.ec2.cloud.redislabs.com:18515"
@@ -90,7 +90,7 @@ class Config(object):
     BL_CHATS = []  # List of groups that you want blacklisted.
     SESSION_STRING = None
     STRING_SESSION = None
-    START_IMG = "https://telegra.ph/file/3cf4bc694332e15470117.jpg"
+    START_IMG = "https://telegra.ph/file/7e1b933a1753ab1b18323.jpg"
     MONGO_PORT = 27017
     MONGO_DB = "EDWARD"
 
